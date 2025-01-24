@@ -1,4 +1,9 @@
-#! /usr/bin/env ruby
+#!C:\darkness\development\ruby\bin ruby.exe
+#encoding: ISO-8859-1
+#system("clear")
+#puts "---------------------------------------------"
+#puts "               	START                      "
+#puts "---------------------------------------------"
 
 require "nokogiri"                                                                                                        #Ruby XML/HTML parsher.
 require "open-uri"     																									#Get Data from Server.
@@ -141,3 +146,9 @@ while infinite
 							print(Time.now())
 							sleep($timer)
 end
+
+#puts "reaching the expected requirement"
+#puts " reaching "
+#puts "---------------------------------------------"
+#puts "                   END                       "
+#puts "---------------------------------------------"
